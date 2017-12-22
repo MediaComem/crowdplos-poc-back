@@ -1,9 +1,10 @@
 ## CrossLoS
-
+API for the CrossLoS project, a Proof of Concept for crowdsourced crosswalks detection and annotation.
+This PoC is part of the CrowDPLoS project, a VGI system to deliver physically impaired people an adapted navigation system.
 
 ## Requirements
 
-* [Node.js][node] 6.x
+* [Node.js][node] 6.xw
 * [MongoDB][mongo] 3.x
 
 
