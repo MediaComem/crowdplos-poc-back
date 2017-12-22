@@ -1,0 +1,33 @@
+{
+  "name": "plain-art",
+  "version": "1.0.0",
+  "description": "API of the CrossLoS project, a Proof of Concept for crowdsourced crosswalks detection and annotation. This PoC takes part of the CrowDPLoS project, a VGI system to deliver physically impaired people an adapted navigation system. ",
+  "scripts": {
+    "dev" : "nodemon server.js",
+    "start": "node server.js",
+    "start:production": "pm2 start server.js -i 4"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "bookshelf": "^0.9.2",
+    "compression": "^1.6.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.2.1",
+    "express-validator": "^2.20.4",
+    "jade": "^1.11.0",
+    "knex": "^0.10.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.3.0",
+    "pg": "^4.5.1",
+    "pm2": "^1.0.2",
+    "socket.io": "^1.4.5",
+    "nodemon":"^1.14.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.1.0"
+  }
+}
