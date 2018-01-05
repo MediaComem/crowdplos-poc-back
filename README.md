@@ -5,9 +5,9 @@ This PoC is part of the CrowDPLoS project, a VGI system to deliver physically im
 ## Requirements
 
 * [Node.js][node] 6.xw
-* [MongoDB][mongo] 3.x
-
-
+* PostgreSql 9.x^
+* Sequelize 3.x^
+* Sequelize-cli 3^
 
 ## Usage
 
