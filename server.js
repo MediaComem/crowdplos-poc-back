@@ -8,6 +8,7 @@ var flash = require('express-flash');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
 var dotenv = require('dotenv');
+var file2upload2 = require('./controllers/f2uController');
 
 // Load environment variables from .env file
 dotenv.load();
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', HomeController.index);
 app.use('/api/users',users);
+app.use(file2upload2.fileToUpload);
 
 
 // Production error handler
