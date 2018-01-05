@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "API of the CrossLoS project, a Proof of Concept for crowdsourced crosswalks detection and annotation. This PoC takes part of the CrowDPLoS project, a VGI system to deliver physically impaired people an adapted navigation system. ",
   "scripts": {
-    "dev" : "nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js",
     "start:production": "pm2 start server.js -i 4"
   },
@@ -24,7 +24,7 @@
     "pg": "^4.5.1",
     "pm2": "^1.0.2",
     "socket.io": "^1.4.5",
-    "nodemon":"^1.14.1",
+    "nodemon": "^1.14.1",
     "passport": "^0.4.0"
   },
   "devDependencies": {},
