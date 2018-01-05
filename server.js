@@ -14,7 +14,6 @@ dotenv.load();
 
 // Controllers
 var HomeController = require('./controllers/home');
-var users = require('./routes/users.js');
 
 var app = express();
 
@@ -34,7 +33,6 @@ app.use(flash());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', HomeController.index);
-app.use('/api/users',users);
 
 
 // Production error handler
