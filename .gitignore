@@ -33,4 +33,4 @@ bower_components
 Thumbs.db
 
 # Server config
-./server/config/
+server/config/*
